@@ -5,15 +5,27 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Login"
+    android:orientation="vertical">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        gra
-
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/pipoca"
+        android:layout_gravity="center_horizontal"
         />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Nome de usuário ou Email"
+        android:maxLength="50"
+        android:textColor="@color/black"
+        />
 
 
 
