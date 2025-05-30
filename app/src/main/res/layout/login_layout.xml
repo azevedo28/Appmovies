@@ -5,16 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Login">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/pipoca"
         android:layout_gravity="center_horizontal"
-        />
+        android:layout_marginTop="100dp"
+        android:src="@drawable/pipoca" />
 
     <EditText
         android:layout_width="match_parent"
@@ -24,17 +23,36 @@
         android:layout_marginEnd="20dp"
         android:hint="Nome de usuário ou Email"
         android:maxLength="50"
-        android:textColor="@color/black"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Senha"
+        android:maxLength="50"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="400dp"
+        android:text="Entrar"
+        android:backgroundTint="#A42929"
+         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Novo Login"
+        android:backgroundTint="#A42929"
+        android:layout_marginTop="450dp"
         />
-
-
-
-
-
-
-
-
-
 
 
 </RelativeLayout>
