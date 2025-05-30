@@ -53,6 +53,14 @@
         android:backgroundTint="#A42929"
         android:layout_marginTop="450dp"
         />
-
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="250dp"
+        android:hint="Esqueceu a senha?"
+        android:maxLength="50"
+        android:textSize="12dp"
+        android:textColor="#2196F3" />
 
 </RelativeLayout>
