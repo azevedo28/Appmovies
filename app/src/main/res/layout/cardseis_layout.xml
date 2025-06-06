@@ -8,7 +8,7 @@
     >
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/cartres"
+        android:id="@+id/cardseis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp">
@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/cora"
+                app:srcCompat="@drawable/terabitia"
 
                 />
 
@@ -38,22 +38,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
-                    android:text="Coraline e o Mundo Secreto"
+                    android:text="Ponte para Terabitia"
                     />
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/dez"
+                    app:srcCompat="@drawable/livre"
                     android:layout_marginTop="-23dp"
-                    android:layout_marginLeft="250dp"
+                    android:layout_marginLeft="185dp"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Enquanto explora sua nova casa à noite, a pequena Coraline descobre uma porta secreta que contém um mundo parecido com o dela, porém melhor em muitas maneiras. Todos têm botões no lugar dos olhos, os pais são carinhosos e os sonhos de Coraline viram realidade por lá. Ela se encanta com essa descoberta, mas logo percebe que segredos estranhos estão em ação: uma outra mãe e o resto de sua família tentam mantê-la eternamente nesse mundo paralelo."
+                    android:text="Jess sente-se um estranho na escola e até mesmo em sua família. Durante todo o verão ele treinou para ser o garoto mais rápido da escola, mas seus planos são ameaçados por Leslie, que vence uma corrida que deveria ser apenas para garotos."
                     android:textAppearance="?attr/textAppearanceBodyMedium"
                     android:textColor="?android:attr/textColorSecondary"
                     />

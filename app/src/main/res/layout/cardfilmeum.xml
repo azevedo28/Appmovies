@@ -23,7 +23,7 @@
              android:layout_width="match_parent"
              android:layout_height="180dp"
              android:scaleType="centerCrop"
-             app:srcCompat="@drawable/afreira"
+             app:srcCompat="@drawable/jogos"
 
              />
 
@@ -37,7 +37,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A Freira"
+                android:text="Jogos Vorazes"
                 android:textSize="20dp"
 
                 />
@@ -45,16 +45,16 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/dezesseis"
+                app:srcCompat="@drawable/quartoze"
                 android:layout_marginTop="-23dp"
-                android:layout_marginLeft="70dp"
+                android:layout_marginLeft="140dp"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Presa em um convento na Romênia, uma freira comete suicídio. Para investigar o caso, o Vaticano envia um padre assombrado e uma noviça prestes a se tornar freira. Arriscando suas vidas, a fé e até suas almas, os dois descobrem um segredo profano e se confrontam com uma força do mal que toma a forma de uma freira demoníaca e transforma o convento em um campo de batalha."
+                android:text="Após sobreviver à temível arena dos Jogos Vorazes, Katniss Everdeen está desanimada e destruída. Depois que a Capital reduziu o Distrito 12 a destroços, ela se refugiou no Distrito 13. Peeta Mellark foi submetido a uma lavagem cerebral, e agora está sob o domínio de Snow. Então, a presidência quer que Katniss lidere uma resistência e mobilize a população em uma empreitada que irá colocá-la no centro da trama para desmascarar Snow."
                 android:textAppearance="?attr/textAppearanceBodyMedium"
                 android:textColor="?android:attr/textColorSecondary"
                 />
