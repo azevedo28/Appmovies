@@ -5,13 +5,19 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="horizontal"
-    >
-<include layout="@layout/cardfilmeum"/>
-    <include layout="@layout/cardois_layout"/>
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-
+    <include
+        android:id="@+id/vorazes"
+        layout="@layout/cardfilmeum"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<include
+    android:id="@+id/passos"
+    layout="@layout/cardois_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
 
 
 </LinearLayout>
